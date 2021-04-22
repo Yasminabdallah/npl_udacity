@@ -17,6 +17,7 @@ function handleSubmit(event) {
         })
         .then(function(data) {
             document.getElementById('error').innerHTML = '';
+            document.getElementById('results').style.display = "";
             document.getElementById('sourceTag').innerHTML = data.score_tag;
             document.getElementById('sub').innerHTML = data.subjectivity;
             document.getElementById('confidence').innerHTML = data.confidence;
@@ -24,6 +25,7 @@ function handleSubmit(event) {
         });
 
     } else {
+        document.getElementById('results').style.display = "none";
         document.getElementById('error').innerHTML = 'invalid url';
     }
     
