@@ -1,25 +1,29 @@
-CQRS: command query responsibility segregation .
+# Webbpack Express Example App
 
-seperatiob between read operations and write operations.
+The goal of this repo is be an example of a basic but functional app built on Express and Webpack.
 
-2 different class for datamodel y3ne msln 2 customer 
-3lshan da by722 single responsability .
+If you want to follow along, start from branch 0-initial-setup. Each branch in this project is a step along the path to creating a fully functional webpack setup. In each branch, there will be a documentation file that lists out the steps taken in that branch (each step is also roughly a git commit if you look at the history) which you can use as a checklist when setting up your own projects. 
 
-w kaman feh nas byfslo b 2 database wahda l read and whda write.
-querymodel and command model.
+## What we will cover
 
-mafrod database b3d ma tktb feha y7sl feha event 3lsh an y7sl update l database read 
+We will cover:
 
+- Webpack entry point
+- Webpack output and dist folder
+- Webpack Loaders
+- Webpack Plugins
+- Webpack Mode
+- Tools for convenient Webpack development
 
-ya3ne non-cluster indecies ??
+## Get Up and Running
 
-elastiic search mosh relational database .
-elastic search microsoft btst5dmo 
-elastic search nosql db.
+Fork this repo, then clone the branch of your choice from your forked repo down to your computer:
 
+```
+git clone -- git@github.com:[your-user-name]/webpack-express.git --
+```
 
-
-search on elastic search adavanatges .
-search domain driven design .
-
-
+`cd` into your new folder and run:
+- ```npm install```
+- ```npm start``` to start the app
+- this app runs on localhost:8080, but you can of course edit that in server.js
