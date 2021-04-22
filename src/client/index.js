@@ -1,5 +1,6 @@
 import { checkUrl } from './js/checkUrl'
-import { handleSubmit } from './js/formHandler'
+import { formSubmit } from './js/formSubmit'
+import { fetchData } from './js/fetchData'
 
 import './styles/resets.scss'
 import './styles/base.scss'
@@ -9,5 +10,6 @@ import './styles/header.scss'
 
 export {
     checkUrl,
-    handleSubmit
+    formSubmit,
+    fetchData
 }
