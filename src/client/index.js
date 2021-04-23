@@ -1,6 +1,7 @@
 import { checkUrl } from './js/checkUrl'
 import { formSubmit } from './js/formSubmit'
 import { fetchData } from './js/fetchData'
+import { onBlur } from './js/onBlur'
 
 import './styles/resets.scss'
 import './styles/base.scss'
@@ -11,5 +12,6 @@ import './styles/header.scss'
 export {
     checkUrl,
     formSubmit,
-    fetchData
+    fetchData,
+    onBlur
 }
